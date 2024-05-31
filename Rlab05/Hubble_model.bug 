@@ -1,0 +1,8 @@
+model {
+  for (i in 1:length(V)) {
+    V[i] ~ dnorm(b + D[i], c);
+  }
+
+  b ~ dunif(0, 1000);
+  c ~ dunif(0, 1);
+}
