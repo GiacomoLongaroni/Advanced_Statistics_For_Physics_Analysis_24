@@ -4,4 +4,4 @@
 # *.ipynb  text
 
 # To ignore it use below
- *.ipynb linguist-language=Jupyter
+ *.ipynb linguist-detectable=true
